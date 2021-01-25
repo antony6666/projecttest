@@ -4,18 +4,72 @@
 	<title> qcm </title>
 	 <meta charset="utf-8">
 	 <link rel="stylesheet" href="qcm.css">
+	 <script type="text/javascript" src="qcm.js"></script>
 	</head>
 		
 			<body>
-			
-				<button class="validation"
+				<header>
+					
+					<div class="element">QUIZ</div>
+					
+		
+				</header>
+			<p>Avancement du qcm :
+				<progress id="avancement" value="0" max="10"></progress>
+				<span id="pourcentage"></span>
+				<input type="button" onclick="modif(-1);" value="-">
+				
+			</p>
+				
+				<ul id="menu-demo2">
+	<li><a href="#">accueil</a>
+		
+	</li>
+	<li><a href="#">Lien menu 2</a>
+		<ul>
+			<li><a href="#">Lien sous menu 2</a></li>
+			<li><a href="#">Lien sous menu 2</a></li>
+			<li><a href="#">Lien sous menu 2</a></li>
+			<li><a href="#">Lien sous menu 2</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Lien menu 3</a>
+		<ul>
+			<li><a href="#">lien sous menu 3</a></li>
+			<li><a href="#">lien sous menu 3</a></li>
+			<li><a href="#">lien sous menu 3</a></li>
+			<li><a href="#">lien sous menu 3</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Lien menu 4</a>
+		<ul>
+			<li><a href="#">Lien sous menu 4</a></li>
+			<li><a href="#">Lien sous menu 4</a></li>
+			<li><a href="#">Lien sous menu 4</a></li>
+			<li><a href="#">Lien sous menu 4</a></li>
+		</ul>
+	</li>
+</ul>
+<br/>
+				<input type="button" onclick="modif(1);" value="valider et continuer" style="background-color:#00FFFF;">
+				
+				<button class="commencer"
 				type="button">
-				valider
-				</button>
-				<button class="suivant"
-				type="button">
-				suivant
+				commencer
 				</button>
 			</body>
-
+				<figure>
+					<blockquote cite="https://www.huxley.net/bnw/four.html">
+						<p>possibilité de réponse 1
+						<br/>
+						possibilité de réponse 2
+						<br/>
+						possibilité de réponse 3
+						<br/>
+						possibilité de réponse 4
+						</p>
+					</blockquote>
+					 <cite>poser la question</cite>
+				</figure>
+		
 </html>
