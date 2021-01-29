@@ -20,6 +20,9 @@
 				<input type="button" onclick="modif(-1);" value="-">
 				
 			</p>
+
+
+
 				
 				<ul id="menu-demo2">
 	<li><a href="#">accueil</a>
@@ -51,25 +54,42 @@
 	</li>
 </ul>
 <br/>
-				<input type="button" onclick="modif(1);" value="valider et continuer" style="background-color:#00FFFF;">
 				
 				<button class="commencer"
 				type="button">
 				commencer
 				</button>
 			</body>
-				<figure>
-					<blockquote cite="https://www.huxley.net/bnw/four.html">
-						<p>possibilité de réponse 1
-						<br/>
-						possibilité de réponse 2
-						<br/>
-						possibilité de réponse 3
-						<br/>
-						possibilité de réponse 4
-						</p>
-					</blockquote>
-					 <cite>poser la question</cite>
-				</figure>
-		
+				
+				Entrez votre choix :
+			<FORM NAME="form3">
+			<INPUT TYPE="radio" NAME="choix" VALUE="1">Choix numéro 1<BR>
+			<INPUT TYPE="radio" NAME="choix" VALUE="2">Choix numéro 2<BR>
+			<INPUT TYPE="radio" NAME="choix" VALUE="3">Choix numéro 3<BR>
+			<INPUT TYPE="button"NAME="but" VALUE="Quel et votre choix ?" onClick="choixprop(form3)">
+			</FORM>
+<fieldset>
+      <legend>QUESTION 1</legend>
+      <ul>
+            <label for="title_1">
+          <li>
+              <input TYPE="radio" NAME="choix" VALUE="1">Choix numéro 1<BR> 
+         
+            </label>
+          </li>
+          <li>
+            <label for="title_2">
+              <input type="radio" id="title_2" name="title" value="Mme.">
+              Choix numéro 2
+			  </br></br> </br> </br>  </br> </br></br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br>
+			  <input type="button" onclick="modif(1);" value="valider et continuer" style="background-color:#00FFFF;">
+				
+				
+			
+				
+            </label>
+          </li>
+      </ul>
+    </fieldset>
+	
 </html>
