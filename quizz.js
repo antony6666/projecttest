@@ -1,3 +1,7 @@
+import data from 'index.JSON';
+console.log(data.nbquestion);
+
+
 function avancement() {
   var ava = document.getElementById("avancement");
   var prc = document.getElementById("pourcentage");
