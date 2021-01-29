@@ -126,14 +126,25 @@ header{
 	text-align:center;
 }
 
-blockquote {
-    margin: 7;
+}
+blockquote{
+		width : 700px; 
+		margin: auto;
+		background-color="#C0CFFF";
+}
+blockquote p {
+    padding:250px;
+    background-color:#C0CFFF;
+	margin:auto;
+    width : 200px; 
 }
 
-blockquote p {
-    padding: 200px;
-    background-color:#C0CFFF;
-    
+fieldset {
+	width : 700px; 
+	margin: auto;
+	background-color="#C0CFFF";
 }
+
+
 
 
