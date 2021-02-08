@@ -1,5 +1,7 @@
-import data from 'index.JSON';
-console.log(data.nbquestion);
+declare module "index.json" {
+  const value: any;
+  export default value;
+}
 
 
 function avancement() {
@@ -42,8 +44,6 @@ if (form3.choix[0].checked) { alert("Vous avez choisi la proposition " + form3.c
 if (form3.choix[1].checked) { alert("Vous avez choisi la proposition " + form3.choix[1].value) };
 if (form3.choix[2].checked) { alert("Vous avez choisi la proposition " + form3.choix[2].value) };
 }
-
-
 
 
 
