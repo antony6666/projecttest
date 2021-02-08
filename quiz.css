@@ -146,5 +146,23 @@ fieldset {
 }
 
 
+input, textarea {
+    font: 1em sans-serif;	/*taille des boutons */
+	color : red;
+	
+  
+  
+}
+input {
+	border-color:red;
+	
+}
 
+form {
+    margin: 0 auto;
+    width: 600px;
+    padding: 2px;
+
+    border-radius: 1em;
+}
 
